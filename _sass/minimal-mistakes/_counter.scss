@@ -1,0 +1,58 @@
+.counting-sec{
+  padding: 40px 0;
+  width: 100%;
+  
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col{
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  color: #000;
+  text-transform: capitalize;
+}
+.col i{
+  font-size: 40px;
+  padding: 20px;
+  color: #000;
+}
+.num{
+  font-size: 40px;
+  margin: 20px 0;
+}
+.per{
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    color: #000;
+    text-transform: capitalize;
+  }
+
+  .col i {
+    font-size: 30px;
+    padding: 20px;
+    color: #000;
+  }
+
+  .num {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  .per {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+}
