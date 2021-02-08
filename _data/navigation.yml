@@ -1,0 +1,111 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Docs"
+    url: /docs/getting-started/
+  - title: "Invite"
+    url: /invite/ #/year-archive/
+  - title: "Discord"
+    url: https://discord.gg/sRGkTVw #/collection-archive/
+  - title: "Status"
+    url: https://status.zarena.ga
+  - title: "Privacy Policy"
+    url: /privacy/
+  - title: "Donate"
+    url: /donate/
+  
+
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Basic bot setup"
+        url: /docs/getting-started/
+  - title: Animal commands
+    url: /docs/animals/
+  - title: Fun commands
+    url: /docs/fun/
+    children:
+      - title: "Text Fun"
+        url: /docs/text/
+      - title: "Image Fun"
+        url: /docs/image/
+  - title: Games commands
+    url: /docs/games/
+  - title: Info commands
+    url: /docs/info/
+  - title: Internet commands
+    url: /docs/internet/
+  - title: Moderation commands
+    url: /docs/mod/
+  - title: Misc commands
+    url: /docs/misc/
+  - title: Economy commands
+    url: /docs/economy/
+  - title: Others
+    url: /docs/supported-sites/
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /

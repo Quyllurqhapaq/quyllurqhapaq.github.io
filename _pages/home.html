@@ -1,0 +1,85 @@
+---
+layout: splash
+permalink: /
+hidden: true 
+header:
+  overlay_color: "#000000"
+  overlay_image: /assets/images/mm-home-page-feature1.jpg
+  actions:
+    - label: "<i class='fas fa-download'></i> Invite now"
+      url: "https://discord.com/oauth2/authorize?client_id=471701482874601472&scope=bot&permissions=8"
+excerpt: >
+  Zarena is a multipurpose discord bot which can help you to monitor and grow your servers.<br />
+  <small><a href="https://google.com">Latest release v1.02.0</a></small>
+  
+feature_row:
+  - image_path: /assets/images/prefix-logo.png
+    alt: "customizable prefix"
+    title: "Customizable prefix"
+    excerpt: "You can set custom bot's prefix anytime."
+    
+  - image_path: /assets/images/fun-logo.png
+    alt: "fun"
+    title: "Fun"
+    excerpt: "Various fun commands to keep you entertain"
+    
+  - image_path: /assets/images/games-logo.png
+    alt: "games"
+    title: "Games"
+    excerpt: "Feeling bored? Zarena has lots of cool games to kill your boredom"
+    
+  - image_path: /assets/images/mod-logo.png
+    alt: "moderation"
+    title: "Moderation"
+    excerpt: "Moderation commands to keep your server free and safe from spammers and raiders!"
+    
+  - image_path: /assets/images/internet-logo.png
+    alt: "internet"
+    title: "Internet"
+    excerpt: "Do you know that you can search google, youtube, wikipidia inside discord? Yes it is possible using Zarena!"
+    
+  - image_path: /assets/images/utility-logo.png
+    alt: "utility"
+    title: "Utility"
+    excerpt: "Many useful and informative commands at one place!"
+ 
+---
+
+{% include feature_row %}
+
+<script>
+   jQuery(document).ready(function($) {
+     $('.num').counterUp({delay: 10,time: 1400});
+     });
+</script>
+<div class="counting-sec">
+<div class="inner-width">
+  
+<div class="col">
+<i class="fas fa-cog"></i><br>
+<span class="num">113</span><br>Servers</div>
+
+<div class="col">
+<i class="fas fa-users"></i><br>
+<span class="num">107,567</span><br>Users</div>
+
+<div class="col">
+<i class="fas fa-tachometer-alt"></i><br>
+<span class="num">100</span>
+<span class="per">%</span><br>
+Uptime</div>
+
+<div class="col">
+<i class="fas fa-book-open"></i><br>
+<span class="num">18,647</span><br>Lines of Code</div>
+
+<div class="col">
+<i class="fas fa-user"></i><br>
+<span class="per">1</span><br>Developer</div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({server: '456574328990072838', channel: '768017621386919946'})
+</script>
