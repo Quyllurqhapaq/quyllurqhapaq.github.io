@@ -44,7 +44,7 @@ search_provider          : lunr # lunr (default), algolia
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "zarena"
 
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
@@ -54,7 +54,9 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/imbravestone/"
-    - "https://www.facebook.com/"
+    - "https://zarena.fandom.com/wiki/Main_Page"
+    - "https://www.reddit.com/r/Zarena/"
+    - "https://www.twitch.tv/imbravestone"
 
 # Analytics
 analytics:
@@ -68,21 +70,24 @@ analytics:
 author:
   name             : "Zarena"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "I'm zarena a small multipurpose discord bot."
-  location         : "Somewhere on earth"
+  bio              : "I'm zarena a small multipurpose discord bot developed by Bravestone."
+  location         : "I'm everywhere"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      #url: "https://mademistakes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/imbravestone/"
+    - label: "Fandom wiki"
+#       icon: "fab fa-fw fa-twitter-square"
+      url: "https://zarena.fandom.com/wiki/Main_Page"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/r/Zarena/"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://www.twitch.tv/imbravestone"
 #     - label: "GitHub"
 #       icon: "fab fa-fw fa-github"
 #       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 
 # Site Footer
@@ -91,10 +96,18 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/imbravestone/"
+    - label: "Fandom wiki"
+#       icon: "fab fa-fw fa-twitter-square"
+      url: "https://zarena.fandom.com/wiki/Main_Page"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/r/Zarena/"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://www.twitch.tv/imbravestone"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
 #       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 
 # Reading Files
