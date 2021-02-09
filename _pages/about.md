@@ -6,7 +6,7 @@ last_modified_at: 2020-11-05T10:15:22-04:00
 ---
 
 **Hello there!** :wave:<br>
-I'm Zarena, a small multipurpose discord bot developed by `Bravestone#5405(Steve)` using discord.py library
+I'm Zarena, a small multipurpose discord bot developed by `Bravestone#7521(Steve)` using discord.py library
 
 My prefix is `$` but it can be customizable, I come with many fun and utility commands which keeps user entertain and are useful to users, text and image manipulation commands, also I have some cool games which keeps user free from boredom.
 
