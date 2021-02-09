@@ -65,7 +65,7 @@ docs:
   - title: Economy commands
     url: /docs/economy/
   - title: Others
-    url: /docs/supported-sites/
+    url: /others/
 
 # sidebar navigation list sample
 sidebar-sample:
