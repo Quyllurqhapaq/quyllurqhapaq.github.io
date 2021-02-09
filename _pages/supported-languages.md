@@ -1,11 +1,11 @@
 ---
 permalink: /supported-languages/
 title: "Supported languages"
-description: "ok"
+description: "List of all supported languages by Zarena translator"
 last_modified_at: 2021-02-08T15:59:40-04:00
 ---
 
-## List of all supported languages by zarena translator
+## List of all Supported languages by Zarena translator
 
 - afrikaans
 - albanian
