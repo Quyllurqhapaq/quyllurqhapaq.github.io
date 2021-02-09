@@ -1,7 +1,7 @@
 ---
 title: "Other stuffs"
 excerpt: "Others stuffs which are not directly related to Zarena bot."
-permalink: /docs/others.md
+permalink: /docs/others/
 ---
 
 1. [Zarena Music]({{ "/zarena-music/" | relative_url }}).
