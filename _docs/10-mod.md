@@ -1,15 +1,10 @@
 ---
-title: "mod commands"
+title: "Mod commands"
 permalink: /docs/mod/
 excerpt: "Command related to moderation."
-single_layout_gallery:
-  - image_path: /assets/images/mm-layout-single-header.png
-    alt: "single layout with header example"
-  - image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
 last_modified_at: 2020-08-30T21:27:40-04:00
 toc: true
-toc_label: "Included Layouts"
+toc_label: "On this page"
 toc_icon: "columns"
 ---
 
@@ -34,7 +29,7 @@ Command tree for mod commands
 └── removerole
 ```
 
-### command description
+### Command description
 
 | Command              | Aliases          | Uses                        | Description
 | ---------------------| -----------------|-----------------------------|-------------------------------------------|
@@ -42,7 +37,7 @@ Command tree for mod commands
 | **unmute**           | -                | $unmute <user>              | unmute a user                             |
 | **warn**             | -                | $warn <user>                | warn a user                               |
 | **kick**             | -                | $kick <user>                | kick a user                               |
-| **voicekick**        | wh               | $voicekick <user>           | voicekick a user                          | 
+| **voicekick**        | -                | $voicekick <user>           | voicekick a user                          | 
 | **ban**              | -                | $ban <user>                 | ban a user                                |
 | **softban**          | sban             | $softban <user>             | softban a user                            |  
 | **hackban**          | hban             | $hackban <user>             | hackban a user by id                      |
@@ -53,4 +48,4 @@ Command tree for mod commands
 | **unlock**           | -                | $unlock [channel]           | Unlock a channel                          |  
 | **slowmode**         | slow             | $slowmode [time]            | Manage slowode of a channel               |
 | **addrole**          | arole            | $addrole <user> <role>      | Add role to user                          |
-| **removerole**       | role             | $removerole <user> <role>   | Remove a role from user                   |
+| **removerole**       | rrole            | $removerole <user> <role>   | Remove a role from user                   |
