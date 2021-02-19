@@ -28,12 +28,4 @@ tweet | iphonex | captcha | clyde | nichijou | fact | whowouldwin | awooify | ch
 └── salty
 ```
 
-### command description
-
-| Name             | Comment Provider                                             |
-| ---------------- | -------------------------------------------------------------|
-| **disqus**       | Disqus                                                       |
-| **discourse**    | Discourse                                                    |
-| **facebook**     | Facebook Comments                                            |
-| **utterances**   | utterances                                                   |
-| **custom**       |  [cool](https://google.com) <i class="fas fa-file-alt"></i>. |
+Image commands are currently disabled....
