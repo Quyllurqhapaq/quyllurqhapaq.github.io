@@ -37,20 +37,20 @@ Command tree for mod commands
 ### command description
 
 | Command              | Aliases          | Uses                        | Description
-| ---------------------| -----------------|-----------------------------|----------------------------------|
-| **mute**             | -                | $mute <user>                | Starts a game of hangman         |
-| **unmute**           | -                | $unmute <user>              | Starts a game of tictactoe       |
-| **warn**             | -                | $warn <user>                | Starts a game of trivia          |
-| **kick**             | -                | $kick <user>                | Starts a game of rps             |
-| **voicekick**        | wh               | $voicekick <user>           | Starts a game of wordhunt        | 
-| **ban**              | -                | $ban <user>                 | Starts a game of scramble        |
-| **softban**          | sban             | $softban <user>             | Starts a game of passthebomb     |  
-| **hackban**          | hban             | $hackban <user>             | Starts a game of guessthepokemon |
-| **massban**          | mban             | $massban <user>             | Starts a game of guessthemovie   |
-| **unban**            | uban             | $unban <user>               | Starts a game of bowling         |
-| **purge**            | prune            | $purge <amount>             | Starts a game of wordhunt        | 
-| **lock**             | -                | $lock [channel]             | Starts a game of scramble        |
-| **unlock**           | -                | $unlock [channel]           | Starts a game of passthebomb     |  
-| **slowmode**         | slow             | $slowmode [time]            | Starts a game of guessthepokemon |
-| **addrole**          | arole            | $addrole <user> <role>      | Starts a game of guessthemovie   |
-| **removerole**       | role             | $removerole <user> <role>   | Starts a game of bowling         |
+| ---------------------| -----------------|-----------------------------|-------------------------------------------|
+| **mute**             | -                | $mute <user>                | Mutes a user. Time limit is in minutes.   |
+| **unmute**           | -                | $unmute <user>              | unmute a user                             |
+| **warn**             | -                | $warn <user>                | warn a user                               |
+| **kick**             | -                | $kick <user>                | kick a user                               |
+| **voicekick**        | wh               | $voicekick <user>           | voicekick a user                          | 
+| **ban**              | -                | $ban <user>                 | ban a user                                |
+| **softban**          | sban             | $softban <user>             | softban a user                            |  
+| **hackban**          | hban             | $hackban <user>             | hackban a user by id                      |
+| **massban**          | mban             | $massban <user>             | massban users                             |
+| **unban**            | uban             | $unban <user>               | unban a user                              |
+| **purge**            | prune            | $purge <amount>             | deletes messages from current channel     | 
+| **lock**             | -                | $lock [channel]             | Lock a channel                            |
+| **unlock**           | -                | $unlock [channel]           | Unlock a channel                          |  
+| **slowmode**         | slow             | $slowmode [time]            | Manage slowode of a channel               |
+| **addrole**          | arole            | $addrole <user> <role>      | Add role to user                          |
+| **removerole**       | role             | $removerole <user> <role>   | Remove a role from user                   |
