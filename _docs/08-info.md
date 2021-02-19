@@ -13,16 +13,18 @@ Command tree for info category
 ├── userinfo
 ├── botinfo
 ├── roleinfo
-└── channelinfo
+├── channelinfo
+└── voiceinfo
 ```
 
 ### Command description
 
-| Command              | Aliases          | Uses                    | Description
-| ---------------------| -----------------|-------------------------|----------------------|
-| **avatar**           | ava              | $avatar [user]          | avatar               |
-| **serverinfo**       | sinfo            | $serverinfo             | serverinfo           |
-| **userinfo**         | uinfo            | $userinfo [user]        | usrinfo              |
-| **botinfo**          | binfo            | $botinfo                | botinfo              |
-| **roleinfo**         | rinfo            | $roleinfo <role>        | roleinfo             | 
-| **channelinfo**      | cinfo            | $channelinfo [channel]  | channelinfo          |
+| Command              | Aliases          | Uses                       | Description
+| ---------------------| -----------------|----------------------------|----------------------|
+| **avatar**           | ava              | $avatar [user]             | avatar               |
+| **serverinfo**       | sinfo            | $serverinfo                | serverinfo           |
+| **userinfo**         | uinfo            | $userinfo [user]           | usrinfo              |
+| **botinfo**          | binfo            | $botinfo                   | botinfo              |
+| **roleinfo**         | rinfo            | $roleinfo <role>           | roleinfo             | 
+| **channelinfo**      | cinfo            | $channelinfo [channel]     | channelinfo          |
+| **voiceinfo**        | vinfo            | $voiceinfo [voice channel] | voicelinfo           |
