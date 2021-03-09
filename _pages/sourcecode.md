@@ -6,20 +6,9 @@ last_modified_at: 2021-02-14T10:15:22-04:00
 ---
 
 <head>
-<meta name="description" content="Zarena is a multipurpose bot - zarena-Tech/zarena-bot">
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
 <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-<meta name="twitter:image:src" content="https://avatars.githubusercontent.com/u/78588837?s=400&amp;v=4" />
-<meta name="twitter:site" content="@github" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="zarena-Tech/zarena-bot" />
-<meta name="twitter:description" content="zarena Bot is a multipurpose bot - zarena-Tech/zarena-bot" />
-<meta property="og:image" content="https://avatars.githubusercontent.com/u/78588837?s=400&amp;v=4" />
-<meta property="og:site_name" content="GitHub" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="zarena-Tech/zarena-bot" />
-<meta property="og:url" content="https://zarena.ga" />
-<meta property="og:description" content="zarena Bot is a multipurpose bot - zarena-Tech/zarena-bot" />
+
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
 <link rel="stylesheet" href="css/layouts/blog.css">
