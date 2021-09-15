@@ -1,0 +1,127 @@
+site_name: Zarena bot Docs
+site_url: https://docs.zarena.ga
+site_description: Zarena bot documentation.
+site_author: Bravestone
+copyright: Copyright &copy; 2018 - 2021 <a href="https://zarena.ga">Zarena</a> | All Rights Reserved.
+
+repo_url: https://zarena.ga
+edit_uri: ""
+use_directory_urls: false
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/logo_88x88.png
+  favicon: assets/images/favicon.ico
+  # icon:
+  #   repo: fontawesome-solid-download 
+  language: en
+  features:
+    - navigation.expand
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.share
+    - search.suggest
+    - search.highlight
+    
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  include_search_page: false
+  search_index_only: true
+  static_templates:
+    - 404.html
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - macros
+  - section-index
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Basic bot setup: basic-bot-setup.md
+  - Animals: animals.md
+  - Fun:
+    - fun.md
+    - Text Fun: fun/text-fun.md
+    - Image Fun: fun/image-fun.md
+  - Games: games.md
+  - Info: info.md
+  - Internet: internet.md
+  - Moderation: mod.md
+  - Utility: util.md
+  - Misc: misc.md
+
+extra:
+  homepage: https://zarena.ga
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:imbravestone@zarena.ga
+      name: Zarena admin contact
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/imbravestone
+      name: Zarena on Twitter
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/Zarena
+      name: Zarena on Reddit
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/imbravestone
+      name: Zarena on twitch
+    - icon: fontawesome/solid/link
+      link: https://zarena.fandom.com/wiki/Main_Page
+      name: Zarena on fandom wiki
+  manifest: manifest.webmanifest
+  discord:
+    invite: https://discord.com/oauth2/authorize?client_id=471701482874601472&scope=bot&permissions=8
+    server: https://discord.gg/sRGkTVw
+    status: https://status.zarena.ga/
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

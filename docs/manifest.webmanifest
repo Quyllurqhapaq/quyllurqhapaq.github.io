@@ -1,0 +1,43 @@
+{
+  "short_name": "Zarena bot docs",
+  "name": "Documentation for zarena bot.",
+  "icons": [
+    {
+      "src": "assets/images/logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#4051B5",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#4051B5",
+  "shortcuts": [
+    {
+      "name": "Documentation for zarena bot.",
+      "short_name": "Zarena bot docs",
+      "description": "Documentation for zarena bot.",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "assets/images/logo_192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Documentation for zarena bot.",
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "assets/images/screenshot2.png",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}

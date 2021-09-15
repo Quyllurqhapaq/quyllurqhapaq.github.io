@@ -1,0 +1,81 @@
+:root {
+    --md-admonition-icon--book: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"/></svg>');
+    --md-primary-discord-color: #3E4CE6;
+    --md-primary-invite-color: #3FA63F;
+    --md-primary-invite-lcolor: #72c072;
+  }
+
+/* book admonition logo */
+.md-typeset .admonition.book,
+.md-typeset details.book {
+  border-color: rgb(0,176,255);
+}
+.md-typeset .book > .admonition-title,
+.md-typeset .book > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+  border-color: rgb(0,176,255);
+}
+.md-typeset .book > .admonition-title::before,
+.md-typeset .book > summary::before {
+  background-color: rgb(0,176,255);
+  -webkit-mask-image: var(--md-admonition-icon--book);
+          mask-image: var(--md-admonition-icon--book);
+}  
+
+/* Table heading */
+th {
+    color: var(--md-primary-bg-color);
+    background-color: var(--md-primary-fg-color--light);
+}
+
+/* Table row on hover */
+tr:hover {
+      background-color: #e8e9ec !important;
+      box-shadow: 0 0.0625rem 0 var(--md-primary-fg-color--light) inset;
+}
+
+/* h1 botto margin adjusting */
+.md-typeset h1 {
+    margin: 0 0 0.8em;
+}
+
+/* setting dark color to code block */
+/* .md-typeset code {
+    color: var(--md-code-bg-color);
+    background-color: var(--md-code-fg-color);
+} */
+
+/* Tweaking sidebar header name */
+/* .md-nav__title {
+  visibility: hidden;
+}
+
+.md-nav__title:after {
+  content: "Zarena bot Docs";
+  visibility: visible;
+  display: block;
+} */
+
+/* custom buttons */
+.md-typeset .md-button--discord {
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-discord-color);
+  border-color: var(--md-primary-discord-color);
+}
+
+.md-typeset .md-button--invite {
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-invite-color);
+  border-color: var(--md-primary-invite-color);
+}
+
+.md-typeset .md-button--invite:focus,
+.md-typeset .md-button--invite:hover {
+  color: var(--md-primary-bg-color);
+	background-color: var(--md-primary-invite-lcolor);
+	border-color: var(--md-primary-invite-lcolor);
+}
+
+.testa {
+  background-color: var(--md-primary-invite-lcolor);
+}
