@@ -9,7 +9,7 @@ Various useful utility commands
 --8<-- "includes/note1.md"
 
 ## Command tree
-Command tree for info category
+Command tree for info category.
 
 ```
 ├── country
