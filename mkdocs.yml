@@ -76,7 +76,6 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - section-index
 
 nav:
   - Home: index.md
