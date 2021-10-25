@@ -18,6 +18,7 @@ theme:
   language: en
   features:
     - navigation.expand
+    - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.top
@@ -76,7 +77,6 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - section-index
 
 nav:
   - Home: index.md
@@ -117,6 +117,7 @@ extra:
     invite: https://discord.com/oauth2/authorize?client_id=471701482874601472&scope=bot&permissions=8
     server: https://discord.gg/sRGkTVw
     status: https://status.zarena.ga/
+  generator: false
 
 extra_css:
   - assets/stylesheets/extra.css
