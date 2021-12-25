@@ -3,8 +3,8 @@ title: Animal commands
 description: Various animal relates commands.
 ---
 
-# Animals and their Facts
-Get images of cute animals and their facts.
+# Animals and their facts Command
+Get images of cute and wild animals and their facts.
 
 --8<-- "includes/note1.md"
 

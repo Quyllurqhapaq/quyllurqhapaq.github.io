@@ -3,7 +3,7 @@ title: Internet commands
 description: Commands related to internet.
 ---
 
-# Internet
+# Internet Commands
 Use google, wikipedia to search the internet
 
 --8<-- "includes/note1.md"

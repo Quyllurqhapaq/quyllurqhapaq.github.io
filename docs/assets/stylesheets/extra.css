@@ -40,10 +40,10 @@ tr:hover {
 }
 
 /* setting dark color to code block */
-/* .md-typeset code {
+.md-typeset code {
     color: var(--md-code-bg-color);
     background-color: var(--md-code-fg-color);
-} */
+}
 
 /* Tweaking sidebar header name */
 /* .md-nav__title {
@@ -55,6 +55,35 @@ tr:hover {
   visibility: visible;
   display: block;
 } */
+
+.md-typeset h3 {         /*remove h3 bottom space*/
+  margin: 1.2em 0 0;
+}
+
+.md-typeset ol li, .md-typeset ul li {      /*li sub list reduce bottom space*/
+  margin-bottom: 0.2em;
+}
+
+html .md-typeset .admonition>:last-child {   /*content tab*/
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+}
+
+.md-typeset ul {       /*ol list reduce top space*/
+  margin-top: 0.5em;
+}
+
+.md-clipboard {        /*clipboard color*/
+  color: var(--md-default-bg-color--lighter);
+}
+
+:hover > .md-clipboard {       /*clipboard color on focus hover*/
+  color: var(--md-default-bg-color--light);
+}
+
+.md-clipboard:hover {       /*clipboard color on hover*/
+  color: var(--md-accent-fg-color);
+}
 
 /* custom buttons */
 .md-typeset .md-button--discord {

@@ -3,12 +3,14 @@ title: Game commands
 description: Command related to games
 ---
 
-# Games
+# Game Commands
+
 Various cool games to keep users engaged in your Discord server.
 
 --8<-- "includes/note1.md"
 
 ## Command tree
+
 Command tree for game commands
 
 ```terminal

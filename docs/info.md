@@ -3,7 +3,7 @@ title: Info commands
 description: Command related to info command.
 ---
 
-# Information
+# Information Commands
 Get information about your server, users, channels etc.
 
 --8<-- "includes/note1.md"

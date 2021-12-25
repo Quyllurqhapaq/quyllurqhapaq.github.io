@@ -3,7 +3,7 @@ title: Misc commands
 description: Miscellaneous commands.
 ---
 
-# Miscellaneous
+# Miscellaneous Commands
 Miscellaneous or misc commands are those commands which does not come under any specific category are listed here.
 
 --8<-- "includes/note1.md"

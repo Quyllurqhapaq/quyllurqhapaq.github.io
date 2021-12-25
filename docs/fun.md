@@ -3,7 +3,7 @@ title: Fun commands
 description: Various fun related commands
 ---
 
-# Fun
+# Fun Commands
 Fun commands to keep users entertain.
 
 --8<-- "includes/note1.md"

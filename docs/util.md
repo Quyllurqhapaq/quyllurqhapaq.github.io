@@ -3,7 +3,7 @@ title: Utility commands
 description: Utility commands
 ---
 
-# Utility
+# Utility Commands
 Various useful utility commands
 
 --8<-- "includes/note1.md"

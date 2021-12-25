@@ -3,7 +3,7 @@ title: Mod commands
 description: Command related to moderation.
 ---
 
-# Moderation
+# Moderation Commands
 Powerful moderation commands so that you can monitor your server properly.
 
 --8<-- "includes/note1.md"
